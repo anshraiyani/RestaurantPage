@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.header{
+    font-size: 3em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.tabGroup{
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    justify-content: center;
+    background-color: beige;
+    align-items: center;
+}
+
+.tab{
+    background-color: white;
+    font-size: 1.5em;
+    padding: 5px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.tab:hover{
+    background-color: rgb(176, 172, 172);
+    cursor: pointer;
+}
